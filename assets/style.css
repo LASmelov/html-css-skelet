@@ -9,3 +9,87 @@ a,
 button {
     color: white;
 }
+
+
+header{
+    display: flex;
+padding: 24px 0px;
+justify-content: space-around;
+align-items: center;
+}
+
+.headerone ul{
+    display: flex;
+align-items: center;
+
+gap: 24px;
+}
+
+
+
+.btn1{
+    display: flex;
+padding-right: 0px;
+align-items: center;
+gap: 16px;
+}
+
+.btn{
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn2{
+    display: flex;
+align-items: center;
+gap: 12px;
+}
+
+
+.btn-bg1{
+    display: flex;
+padding: 11px 28px;
+align-items: flex-start;
+
+border-radius: 10px;
+border: 1px solid #FFF;
+
+
+color: #FFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.btn-bg2{
+    display: flex;
+    padding: 3px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    border-radius: 10px;
+background: #097FD9;
+
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 222.222% */
+}
+
+
+ul li a{
+    text-decoration: none;
+}
