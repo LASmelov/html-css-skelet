@@ -41,6 +41,7 @@ function togglePrice() {
   let buttons1 = document.getElementsByClassName("toggle-button1");
   let buttons2 = document.getElementsByClassName("toggle-button2");
   for (let i = 0; i < buttons2.length; i++) {
+    event.preventDefault();
     buttons1[i].classList.toggle("active");
     buttons2[i].classList.toggle("active"); // Remove active class from the other button
   }
@@ -75,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     slides.forEach((slide) => {
       slide.style.display = 'none';
     });
-    slides[index].style.display = 'block';
+    slides[index].style.display = 'flex';
   };
 
   const activateDot = (index) => {
