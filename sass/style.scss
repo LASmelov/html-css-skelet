@@ -848,20 +848,25 @@ padding: 120px 0px;
 
 .member{
     display: flex;
-    align-items: flex-start;
-    gap: 140px;
+    
+   
     margin: 0 200px 0 200px;
+    flex-wrap: wrap;
+    
     
 
     .memberleft{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 140px;
+    
+        overflow-wrap:break-word;
+
 
         article{
             position: absolute;
-            
+            overflow-wrap:break-word;
+            width: 500px;
               h1{
                   color: #FFF;
 

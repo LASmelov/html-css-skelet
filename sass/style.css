@@ -640,18 +640,19 @@ ul li a {
 
 .member {
   display: flex;
-  align-items: flex-start;
-  gap: 140px;
   margin: 0 200px 0 200px;
+  flex-wrap: wrap;
 }
 .member .memberleft {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 140px;
+  overflow-wrap: break-word;
 }
 .member .memberleft article {
   position: absolute;
+  overflow-wrap: break-word;
+  width: 500px;
 }
 .member .memberleft article h1 {
   color: #FFF;
